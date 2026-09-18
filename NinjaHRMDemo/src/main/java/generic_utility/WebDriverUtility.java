@@ -39,4 +39,9 @@ public class WebDriverUtility {
 		Select sel = new Select(ele);
 		sel.selectByVisibleText(visibleText);
 	}
+	public void selectFromDropDow(WebElement ele,String visibleText)
+	{
+		Select sel = new Select(ele);
+		sel.selectByVisibleText(visibleText);
+	}
 }
